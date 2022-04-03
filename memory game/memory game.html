@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="memory style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+      <div class="start-cont visible over-lay">
+          <h3>Start Game</h3>
+      </div>
+      <div  class="victory  over-lay ">
+        Victory!!
+        <span class="restart">Click to Restart</span>
+    </div>
+      <div class="game-cont">
+          <div class="top-section">
+    <h2 class="title">Memory Match</h2>
+    <h2 class="score-card">Flips : <span class="score">0</span></h2>
+</div>
+    <div class="card-cont">
+        <div class="card ">
+            <div class="card-back card-face">
+                <img class="img" src= "https://i.pinimg.com/originals/06/8e/86/068e868ce1602e549bcd2aa5eaae3c05.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src= "https://i.pinimg.com/originals/06/8e/86/068e868ce1602e549bcd2aa5eaae3c05.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            </div>
+        </div>
+        <div class="card"> <div class="card-back card-face">
+            <img class="img"  src="https://i.pinimg.com/474x/08/cb/ee/08cbeef407a37f3d80a4b3cd491318c0.jpg" >
+        </div>
+        <div class="card-front card-face">
+            <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+        </div>
+    </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img"  src="https://i.pinimg.com/474x/08/cb/ee/08cbeef407a37f3d80a4b3cd491318c0.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/d8/0a/a6/d80aa62f6de2b329f896af6bba80d308.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/d8/0a/a6/d80aa62f6de2b329f896af6bba80d308.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/78/e3/3b/78e33bb9f50c9c0c69e0dbdd1a1cada3.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/78/e3/3b/78e33bb9f50c9c0c69e0dbdd1a1cada3.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/7a/a5/c8/7aa5c8e71304b3090fef73743e93b005.jpg" >
+            </div>
+            <div class="card-front card-face">
+                
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/7a/a5/c8/7aa5c8e71304b3090fef73743e93b005.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/56/ca/bc/56cabc96ce3d0e6650ab307df22a558a.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/56/ca/bc/56cabc96ce3d0e6650ab307df22a558a.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/cd/bc/4e/cdbc4e8c210651e80898aaad56d16651.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/cd/bc/4e/cdbc4e8c210651e80898aaad56d16651.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/5c/34/82/5c3482c0776494a9b06f3c2b826471c6.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/5c/34/82/5c3482c0776494a9b06f3c2b826471c6.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/bb/f5/ab/bbf5ab8019dacab7a331e011a68490d6.jpg" >
+            </div>
+            <div class="card-front card-face">
+             
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/bb/f5/ab/bbf5ab8019dacab7a331e011a68490d6.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/0b/48/bf/0b48bf905572471ae678af999dc70ff4.jpg" >
+            </div>
+            <div class="card-front card-face">
+              
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-back card-face">
+                <img class="img" src="https://i.pinimg.com/474x/0b/48/bf/0b48bf905572471ae678af999dc70ff4.jpg" >
+            </div>
+            <div class="card-front card-face">
+                <img class="img1" src= "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png" >
+            
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+  <script src="memory script.js"></script>  
+</body>
+</html>
